@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>MasterLayout</title>
+        <link rel="stylesheet" type="text/css" href="test.css" />
+    </head>
+    <body>
+        <div id="main-menu">Main menu</div>
+        <header>Header</header>
+        <div class="main-content">
+            <nav id="content">
+                Content
+            </nav>
+            <aside id="side-bar">Side bar</aside>
+        </div>
+        <div id="footer">Footer</div>
+    </body>
+</html>
+
+
+CSS:
+body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+#main-menu{
+    height:50px;
+    background-color: #e47c7c;
+    text-align: center;
+}
+header{
+    height: 150px;
+    background-color: #5675a5;
+}
+#content{
+    height:500px;
+    width: 60%;
+    background-color: #8ce68c;
+}
+#side-bar{
+    width: 40%;
+    height:500px;
+    background-color: #31a141;
+}
+#footer{
+    height:100px;
+    background-color: #be853a;
+}
+.main-content{
+    display: flex;
+}
