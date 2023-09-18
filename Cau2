@@ -1,0 +1,138 @@
+# Btapbuoi3
+22DH110053_TranHoaiAn_BtapBuoi3
+ <body>
+        <div id="main-menu">
+           <li>Thông tin</li>
+           <li>Tin tức</li>
+           <li>Truyền thông</li>
+           <li>Mạng xã hội</li>
+        </div>
+        <header>
+            <img src="One piece wallpaper.jpg" alt="OP">
+        </header>
+        <div class="main-content">
+            <nav id="content">
+                    <div class="About">
+                        <h3>About</h3> <br>
+                        <p class="item">Tòa án Tối cao New Zealand thừa nhận các phiên xét xử đầu tiên là bất công, bộc lộ "yếu kém" hoặc "chiến lược sai trái có chủ đích để đảm bảo kết án". Tòa lưu ý Hall bị thiểu năng trí tuệ nhưng vẫn phải chịu thẩm vấn 20 tiếng mà không có luật sư đại diện.</p><br>
+                        <p class="item">Bộ Tư pháp New Zealand đồng ý bồi thường hơn 160.000 USD cho mỗi năm Hall ngồi tù. Số tiền 3 triệu USD mà ông nhận được là mức bồi thường oan sai lớn nhất trong lịch sử New Zealand.</p>
+                    </div>
+                    <div class="Contact-us">
+                        <h3>Contact Us</h3>
+                        <p class="item">Phone: 0928789734</p><br>
+                        <p class="item">Fax: 8787234345</p><br>
+                        <p class="item">Email: infor@gmail.com</p>
+                        <p class="item">P.O box: 1425, hamlinton, New Zealand</p>
+                    </div>
+            </nav>
+            <aside id="side-bar">
+                <h3>Featured Projects</h3>
+                <div class="item-sidebar">
+                    <p class="item-top">The New Zealand National Party</p>
+                    <p class="item">is a centre-right political party in New Zealand. It is one of two major parties that ,<span style="color: greenyellow;">dominate 				contemporary New Zealand politics</span>, alongside its traditional rival, the Labour Party</p>
+                </div>
+                <div class="item-sidebar">
+                    <p class="item-top">Greenset</p>
+                    <p class="item">Vietnam performs relatively well in regards to its CO2 emissions per capita,  <span style="color: greenyellow;">ranking 21st with 3.27 			tonnes</span> . However, its rankings across the other studies could do with a major boost.
+                    </p>
+                </div>
+                <div class="item-sidebar">
+                    <p class="item-top">Nutrition care</p>
+                    <p class="item">The Naturopathic College of New Zealand has a proud history of delivering distance education since 1979, and  .<p style="color: 				greenyellow;">is the country’s leading provider of online health and wellness studies.</span>Join our online intake now and start studying for a 			passionate new career</p>
+                </div>
+            </aside>
+        </div>
+        <div id="footer">
+            <div class="left" style="float: left;">
+                Copyright &copy; Enlighten designs <br>
+                Powered by Enlighten Hosting
+            </div>
+            <div class="right" style="float: right;">
+                About - Sevices - Portfolio - Contact us 
+            </div>
+        </div>
+        
+    </body>
+
+
+
+
+
+CSS: 
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+:root{
+    --color: white;
+}
+#main-menu{
+    height:100px;
+    background-color: var(--color);
+}
+header{
+    height: 300px;
+    border-width:5px 0px 5px 0px;
+    border-style: solid;
+    border-color: rgb(219, 212, 212);
+}
+#content{
+    height:500px;
+    width: 60%;
+    background-color:var(--color);
+}
+#side-bar{
+    width: 40%;
+    height:500px;
+    background-color: var(--color);
+}
+#footer{
+    height:50px;
+    background-color: var(--color);
+    border-width:5px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(219, 212, 212);
+}
+.main-content{
+    display: flex;
+    margin-left: 10px;
+}
+#main-menu li{
+    display: inline;
+    padding: 30px ;
+    font-size: 30px;
+}
+header img{
+    height: 300px;
+    width: 100%;
+}
+h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.About h3{
+    color: rgb(180, 123, 15);
+}
+.Contact-us h3{
+    color: #6b330e;
+}
+.item{
+    margin-top: 10px;
+    display: block;
+}
+.item-top{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.left ,.right{
+    font-size: 10px;
+    padding-top: 10px;
+
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    margin-right: 10px;
+}
